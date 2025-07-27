@@ -1,21 +1,18 @@
+
 <template>
   <div class="app">
-    <h1>🎵 Superlan Music</h1>
-    <p>欢迎来到超级听歌聊天室！</p>
+    <h1>欢迎来到 Superlan 音乐站 🎵</h1>
+    <router-view></router-view>
   </div>
 </template>
 
-<script>
-export default {
-  name: "App"
-}
+<script setup>
 </script>
 
 <style>
-body {
-  font-family: sans-serif;
+.app {
   text-align: center;
-  background: linear-gradient(to right, #dce35b, #45b649);
-  color: #333;
+  padding: 2rem;
+  font-family: sans-serif;
 }
 </style>
